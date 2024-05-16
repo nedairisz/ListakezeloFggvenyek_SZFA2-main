@@ -12,7 +12,7 @@ export function tablazatOsszeallit(lista) {
       txt += `<td>${element[key]}</td>`;
     }
 
-    txt += ` <td id="${i}" class="kuka">🗑️</td>
+    txt += ` <td id="${element.id}" class="kuka">🗑️</td>
             </tr>`;
   });
   txt += "</table>";
